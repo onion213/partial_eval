@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# partialeval
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+R Package for Partially Evaluating Expressions
+
+## Installation
+
+You can install the development version of partialeval from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("onion213/partial_eval")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(partialeval)
+
+expr <- expression(x + y, x + z, y + z)
+values <- list(x = 1)
+partial_eval(expr = expr, values = values)
+```

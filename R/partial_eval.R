@@ -1,8 +1,8 @@
-#' Partially evaluate expressions.
+#' Partially evaluate expressions
 #'
-#' @param expr An expression (i.e. list of calls)
+#' @param expr An expression (i.e. a list of calls)
 #' @param values A list or an environment object
-#' consists of some variable names and values.
+#' consists of some variable names in given expression and values for them.
 #'
 #' @return An expression of the same length as `expr`.
 #' Substitute given values to some variables according to `values`

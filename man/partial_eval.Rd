@@ -2,23 +2,25 @@
 % Please edit documentation in R/partial_eval.R
 \name{partial_eval}
 \alias{partial_eval}
-\title{Partially evaluate expressions.}
+\title{Partially evaluate expressions}
 \usage{
 partial_eval(expr, values)
 }
 \arguments{
-\item{expr}{An expression (i.e. list of calls)}
+\item{expr}{An expression (i.e. a list of calls)}
 
-\item{values}{A list or an environment object consists of some variable names and values.}
+\item{values}{A list or an environment object
+consists of some variable names in given expression and values for them.}
 }
 \value{
-An expression of the same length as \code{expr}. Substitute given values to some variables according to \code{values}
+An expression of the same length as \code{expr}.
+Substitute given values to some variables according to \code{values}
 }
 \description{
-Partially evaluate expressions.
+Partially evaluate expressions
 }
 \examples{
-expr <- expression(x+y, x+z, y+z)
-values <- list(x=1)
-partial_eval(expr=expr, values=values)
+expr <- expression(x + y, x + z, y + z)
+values <- list(x = 1)
+partial_eval(expr = expr, values = values)
 }
