@@ -5,3 +5,4 @@
 ^LICENSE\.md$
 ^\.pre-commit-config\.yaml$
 ^README\.Rmd$
+^\.github$
