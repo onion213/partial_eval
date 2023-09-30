@@ -14,8 +14,5 @@
 #' values <- list(x = 1)
 #' partial_eval(expr = expr, values = values)
 partial_eval <- function(expr, values) {
-  partial_eval_one_call <- function(call, values) {
-    do.call("substitute", args = list(call, env = values))
-  }
-  as.expression(lapply(expr, partial_eval_one_call, values = values))
+  as.expression(lapply(expr, partial_eval_call, values = values))
 }
