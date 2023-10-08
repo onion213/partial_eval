@@ -2,6 +2,7 @@ Package: pevalr
 Title: Partially evaluate expressions
 Version: 0.0.0.9000
 Author: onion213
+Maintainer: onion213 <onion213@example.com>
 Description: Partially evaluate given expression with given variables and values.
 License: MIT + file LICENSE
 Encoding: UTF-8
