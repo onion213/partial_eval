@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(partialeval)
+library(pevalr)
 
-test_check("partialeval")
+test_check("pevalr")

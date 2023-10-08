@@ -13,10 +13,10 @@ knitr::opts_chunk$set(
 )
 ```
 
-# partialeval
+# pevalr
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/onion213/partial_eval/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/onion213/partial_eval/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/onion213/pevalr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/onion213/pevalr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 R Package for Partially Evaluating Expressions
@@ -27,7 +27,7 @@ You can install the development version of partialeval from [GitHub](https://git
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("onion213/partial_eval")
+devtools::install_github("onion213/pevalr")
 ```
 
 ## Example
@@ -35,7 +35,7 @@ devtools::install_github("onion213/partial_eval")
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-library(partialeval)
+library(pevalr)
 
 expr <- expression(x + y, x + z, y + z)
 values <- list(x = 1)

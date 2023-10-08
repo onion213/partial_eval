@@ -1,8 +1,7 @@
-Package: partialeval
+Package: pevalr
 Title: Partially evaluate expressions
 Version: 0.0.0.9000
-Authors@R: 
-    person("onion213", email = "onion213@example.com", role = c("aut", "cre"))
+Authors: onion213
 Description: Partially evaluate given expression with given variables and values.
 License: MIT + file LICENSE
 Encoding: UTF-8
