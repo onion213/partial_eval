@@ -1,7 +1,8 @@
+^LICENSE\.md$
+^README\.Rmd$
+^\.Rproj\.user$
+^\.github$
+^\.pre-commit-config\.yaml$
+^pevalr\.Rproj$
 ^renv$
 ^renv\.lock$
-^pevalr\.Rproj$
-^\.Rproj\.user$
-^LICENSE\.md$
-^\.github$
-^README\.Rmd$
