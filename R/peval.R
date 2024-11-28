@@ -14,5 +14,5 @@
 #' values <- list(x = 1)
 #' peval(expr = expr, values = values)
 peval <- function(expr, values) {
-    as.expression(lapply(expr, peval_call, values = values))
+  as.expression(lapply(expr, peval_call, values = values))
 }
