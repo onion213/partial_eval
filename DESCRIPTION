@@ -2,7 +2,7 @@ Package: pevalr
 Title: Paraitlly Evaluate Expressions
 Version: 0.0.0.9000
 Authors@R: 
-    person("onion213", email = "kosukekito38@gmail.com", role = c("aut", "cre"),
+  person("onion213", email = "kosukekito38@gmail.com", role = c("aut", "cre"))
 Description: Partially evaluate given expression with given variables and values, while remaining the not-given variables as it is.
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
