@@ -22,5 +22,5 @@ Partially evaluate a call
 \examples{
 call <- expression(x + y)[[1]]
 values <- list(x = 1)
-partial_eval_call(call = call, values = values)
+peval_call(call = call, values = values)
 }

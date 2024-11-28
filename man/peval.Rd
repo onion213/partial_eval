@@ -22,5 +22,5 @@ Partially evaluate expressions
 \examples{
 expr <- expression(x + y, x + z, y + z)
 values <- list(x = 1)
-partial_eval(expr = expr, values = values)
+peval(expr = expr, values = values)
 }
